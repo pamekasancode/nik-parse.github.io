@@ -1,0 +1,32 @@
+.preloader {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  z-index: 999;
+  text-align: center;
+}
+
+.preloader .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.preloader img {
+  width: 100%;
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+.app p {
+  color: #888;
+}
